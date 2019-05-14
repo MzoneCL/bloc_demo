@@ -18,21 +18,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-bu() {
-  return Stack(
-    children: <Widget>[
-      Positioned(
-        child: Align(
-          child: Text('哈哈哈哈'),
-          alignment: Alignment.center,
-        ),
-        bottom: 0,
-        left: 0,
-        right: 0,
-      ),
-    ],
-  );
-}
 
 class MyWidget extends StatelessWidget {
   @override
